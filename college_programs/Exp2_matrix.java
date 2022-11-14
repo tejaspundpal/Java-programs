@@ -1,6 +1,6 @@
 package college_programs;
 import java.util.*;
-public class exp2_matrix
+public class Exp2_matrix
 {
     public static void main(String[] args)
     {

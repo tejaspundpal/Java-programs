@@ -1,6 +1,6 @@
 package college_programs;
 import java.util.Scanner;
-public class exp1_date{
+public class Exp1_date {
 
   public static void main(String[] args){
     String[] D = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};

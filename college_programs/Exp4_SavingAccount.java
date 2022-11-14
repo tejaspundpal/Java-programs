@@ -39,7 +39,7 @@ class SavingAccount
 
     }
 }
-public class exp4_SavingAccount
+public class Exp4_SavingAccount
 {
 
     public static void main(String[] args) {

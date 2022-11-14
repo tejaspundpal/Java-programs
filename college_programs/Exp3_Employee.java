@@ -50,7 +50,7 @@ class employeetest
     }
 
 }
-public class exp3_Employee
+public class Exp3_Employee
 {
     void setData(employeetest em)
     {
@@ -71,8 +71,8 @@ public class exp3_Employee
 
         employeetest e = new employeetest();
         employeetest e1 = new employeetest();
-        exp3_Employee E = new exp3_Employee();
-        exp3_Employee E1 = new exp3_Employee();
+        Exp3_Employee E = new Exp3_Employee();
+        Exp3_Employee E1 = new Exp3_Employee();
         System.out.println("Enter information of first employee...");
         E.setData(e);
         System.out.println("Enter information of second employee...");
