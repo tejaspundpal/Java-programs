@@ -1,0 +1,42 @@
+// package genirics;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class myGen <T1,T2,T3>{
+    T1 num1;
+    T2 num2;
+    T3 num3;
+    myGen(T1 num1,T2 num2,T3 num3){
+        this.num1=num1;
+        this.num2=num2;
+        this.num3=num3;
+    }
+    public T1 getNum1() {
+        return num1;
+    }
+    public T2 getNum2() {
+        return num2;
+    }
+    public T3 getNum3() {
+        return num3;
+    }
+    public void setNum1(T1 num1) {
+        this.num1 = num1;
+    }
+    public void setNum2(T2 num2) {
+        this.num2 = num2;
+    }
+    public void setNum3(T3 num3) {
+        this.num3 = num3;
+    }
+}
+public class geniricClass {
+    public static void main(String [] args){
+        myGen <String,Integer,Boolean> m1=new myGen("ved",12,true);
+        m1.setNum1("Vedang ki kaam 25");
+        System.out.println(m1.getNum1());
+        System.out.println(m1.getNum2());
+        System.out.println(m1.getNum3());
+    }
+}
