@@ -12,7 +12,7 @@ class PNB extends Bank{
     int getRateOfInterest(){return 8;}
 }
 
-class abstract_bank{
+class AbstractBank{
     public static void main(String[] args){
         Bank b;
         b=new SBI();
